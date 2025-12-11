@@ -36,15 +36,6 @@ export const Footer = () => {
             <p className="text-muted-foreground text-sm mb-4">
               The ride-sharing app made exclusively for college students. Connect, ride, and save together.
             </p>
-            <a
-              href="https://apps.apple.com/app/uni-go"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background rounded-lg text-sm font-medium hover:opacity-90 transition-opacity"
-            >
-              <Apple className="w-4 h-4" />
-              App Store
-            </a>
           </div>
 
           {/* Navigation */}
