@@ -12,7 +12,9 @@ const timeline = [
 ];
 
 const rewards = [
-  { icon: Gift, title: "Gift Cards", description: "Earn up to $30/hr in gift card rewards" },
+  {
+    icon: Gift, title: "Gift Cards", description: "Gift cards & prizes for participating"
+  },
   { icon: Users, title: "Exclusive Access", description: "Be first to try new features" },
   { icon: CheckCircle, title: "Shape the App", description: "Your feedback directly impacts development" },
 ];
@@ -43,8 +45,8 @@ const Beta = () => {
               </h1>
 
               <p className="text-lg text-muted-foreground mb-6">
-                Be part of the team that brings Uni Go to Augustana University! Sign up to test 
-                the app as a rider, driver, or both. Earn rewards while helping us build the 
+                Be part of the team that brings Uni Go to Augustana University! Sign up to test
+                the app as a rider, driver, or both. Earn rewards while helping us build the
                 perfect ridesharing experience for students.
               </p>
 
@@ -161,9 +163,8 @@ const Beta = () => {
                 className="flex gap-4 mb-8 last:mb-0"
               >
                 <div className="flex flex-col items-center">
-                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${
-                    item.active ? 'bg-primary shadow-gold' : 'bg-secondary'
-                  }`}>
+                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${item.active ? 'bg-primary shadow-gold' : 'bg-secondary'
+                    }`}>
                     {item.active ? (
                       <Clock className={`w-6 h-6 ${item.active ? 'text-primary-foreground' : 'text-muted-foreground'}`} />
                     ) : (
