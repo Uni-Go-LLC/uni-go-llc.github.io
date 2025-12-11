@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Layout } from "@/components/layout/Layout";
 import { TestTube, Calendar, Gift, Users, Car, CheckCircle, ArrowRight, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { PhoneMockup } from "@/components/ui/PhoneMockup";
 
 const timeline = [
   { phase: "Phase 1", title: "Sign Up", date: "Now", description: "Register your interest and join our beta tester community", active: true },
@@ -30,7 +29,7 @@ const Beta = () => {
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-2xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -41,7 +40,7 @@ const Beta = () => {
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Help Us Launch <span className="text-gradient-gold">Uni Go</span>
+                Help Us Launch Uni <span className="text-gradient-gold">Go</span>
               </h1>
 
               <p className="text-lg text-muted-foreground mb-6">
@@ -73,24 +72,6 @@ const Beta = () => {
                   <div className="text-2xl font-bold text-foreground">2026</div>
                   <div className="text-sm text-muted-foreground">Launch year</div>
                 </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2 }}
-              className="flex justify-center"
-            >
-              <div className="relative">
-                <PhoneMockup className="w-56 md:w-64" />
-                <motion.div
-                  animate={{ rotate: [0, 5, -5, 0] }}
-                  transition={{ duration: 4, repeat: Infinity }}
-                  className="absolute -top-4 -right-4 bg-primary rounded-xl p-3 shadow-gold"
-                >
-                  <TestTube className="w-6 h-6 text-black" />
-                </motion.div>
               </div>
             </motion.div>
           </div>

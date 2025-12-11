@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Layout } from "@/components/layout/Layout";
 import { Car, Shield, Users, Heart, Target, Zap } from "lucide-react";
-import { PhoneMockup } from "@/components/ui/PhoneMockup";
+import rideFeedImage from "@/assets/images/ride-feed.png";
 
 const values = [
   {
@@ -65,7 +65,9 @@ const About = () => {
               transition={{ delay: 0.2 }}
               className="flex justify-center"
             >
-              <PhoneMockup className="w-56 md:w-64" />
+              <div className="w-56 md:w-64">
+                <img src={rideFeedImage} alt="Ride Feed Screen" className="w-48 md:w-56 rounded-3xl shadow-uni-lg" />
+              </div>
             </motion.div>
           </div>
         </div>

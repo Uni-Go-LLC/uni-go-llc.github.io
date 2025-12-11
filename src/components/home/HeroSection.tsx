@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { PhoneMockup } from "@/components/ui/PhoneMockup";
+import rideFeedImage from "@/assets/images/ride-feed.png";
+import getStartedImage from "@/assets/images/get-started.png";
 
 export const HeroSection = () => {
   return (
@@ -78,7 +79,7 @@ export const HeroSection = () => {
             </div>
           </motion.div>
 
-          {/* Phone Mockups */}
+          {/* Images */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -86,46 +87,11 @@ export const HeroSection = () => {
             className="relative flex justify-center lg:justify-end"
           >
             <div className="relative">
-              {/* Main Phone */}
-              <PhoneMockup className="w-56 md:w-64 animate-float" />
+              <img src={getStartedImage} alt="Get Started Screen" className="w-56 md:w-64 animate-float rounded-3xl shadow-uni-lg" />
 
-              {/* Secondary Phone */}
-              <div className="absolute -left-12 md:-left-20 top-16 opacity-80 scale-90">
-                <PhoneMockup className="w-48 md:w-56" />
+              <div className="absolute -left-24 md:-left-44 top-16">
+                <img src={rideFeedImage} alt="Ride Feed Screen" className="w-48 md:w-56 rounded-3xl shadow-uni-lg" />
               </div>
-
-              {/* Floating Elements */}
-              <motion.div
-                animate={{ y: [-10, 10, -10] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -right-4 top-10 bg-card rounded-xl p-3 shadow-uni-md border border-border"
-              >
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center">
-                    <span className="text-green-500 text-sm">$</span>
-                  </div>
-                  <div>
-                    <div className="text-xs font-semibold text-foreground">+$25</div>
-                    <div className="text-xs text-muted-foreground">Earned</div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                animate={{ y: [10, -10, 10] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -left-8 bottom-20 bg-card rounded-xl p-3 shadow-uni-md border border-border"
-              >
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-primary text-sm">🚗</span>
-                  </div>
-                  <div>
-                    <div className="text-xs font-semibold text-foreground">Ride Found!</div>
-                    <div className="text-xs text-muted-foreground">2 min away</div>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>
