@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Car } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/images/uni-go-logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -22,11 +23,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shadow-gold group-hover:scale-105 transition-transform">
-              <Car className="w-5 h-5 text-primary-foreground" />
+            <div className="w-10 h-10 rounded-xl overflow-hidden shadow-gold group-hover:scale-105 transition-transform">
+              <img src={logoImage} alt="Uni Go Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-xl font-bold text-foreground">
-              Uni<span className="text-primary">Go</span>
+              Uni Go
             </span>
           </Link>
 
