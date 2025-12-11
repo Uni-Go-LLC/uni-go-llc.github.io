@@ -1,9 +1,33 @@
 import { motion } from "framer-motion";
 import { Layout } from "@/components/layout/Layout";
-import { Mail, MessageCircle, Clock } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Contact = () => {
+  const faqItems = [
+    {
+      question: "How do I sign up for the beta test?",
+      answer: "You can sign up for the beta test by clicking the 'Sign Up for Beta' button on our website or navigating to our Beta page. Fill out the form with your details and university information to get started!"
+    },
+    {
+      question: "When will Uni Go launch?",
+      answer: "We're currently in beta testing phase with select universities. Full launch details will be announced soon. Stay tuned for updates!"
+    },
+    {
+      question: "Is Uni Go available at my university?",
+      answer: "Uni Go is currently expanding to more universities. Check our Beta page to see if your university is part of our pilot program or to express interest."
+    },
+    {
+      question: "How do drivers get paid?",
+      answer: "Drivers earn money for each completed ride. Payments are processed weekly and can be withdrawn to your linked bank account."
+    },
+  ];
   return (
     <Layout>
       <section className="py-16 md:py-24">
@@ -57,25 +81,19 @@ const Contact = () => {
               transition={{ delay: 0.3 }}
               className="mt-8 p-6 bg-secondary/50 rounded-2xl"
             >
-              <h3 className="font-semibold text-foreground mb-4 text-center">Common Questions</h3>
-              <div className="space-y-3">
-                {[
-                  "How do I sign up for the beta test?",
-                  "When will Uni Go launch?",
-                  "Is Uni Go available at my university?",
-                  "How do drivers get paid?",
-                ].map((question, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center gap-3 text-sm text-muted-foreground"
-                  >
-                    <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-xs font-medium text-primary">
-                      ?
-                    </span>
-                    {question}
-                  </div>
+              <h3 className="font-semibold text-foreground mb-4 text-center">FAQ</h3>
+              <Accordion type="single" collapsible className="w-full">
+                {faqItems.map((item, i) => (
+                  <AccordionItem key={i} value={`item-${i}`}>
+                    <AccordionTrigger className="text-sm text-foreground hover:text-primary">
+                      {item.question}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-sm text-muted-foreground">
+                      {item.answer}
+                    </AccordionContent>
+                  </AccordionItem>
                 ))}
-              </div>
+              </Accordion>
             </motion.div>
           </motion.div>
         </div>
