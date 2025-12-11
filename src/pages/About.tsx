@@ -38,8 +38,8 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-                <Car className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium text-primary">Our Story</span>
+                <Car className="w-4 h-4 text-black" />
+                <span className="text-sm font-medium text-black">Our Story</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">

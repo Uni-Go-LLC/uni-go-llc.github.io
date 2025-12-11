@@ -36,8 +36,8 @@ const Beta = () => {
               animate={{ opacity: 1, y: 0 }}
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-                <TestTube className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium text-primary">Beta Testing Program</span>
+                <TestTube className="w-4 h-4 text-black" />
+                <span className="text-sm font-medium text-black">Beta Testing Program</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -89,7 +89,7 @@ const Beta = () => {
                   transition={{ duration: 4, repeat: Infinity }}
                   className="absolute -top-4 -right-4 bg-primary rounded-xl p-3 shadow-gold"
                 >
-                  <TestTube className="w-6 h-6 text-primary-foreground" />
+                  <TestTube className="w-6 h-6 text-black" />
                 </motion.div>
               </div>
             </motion.div>
@@ -177,7 +177,7 @@ const Beta = () => {
                 </div>
                 <div className={`flex-1 pb-8 ${item.active ? '' : ''}`}>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-0.5 rounded">
+                    <span className="text-xs font-medium text-black bg-primary/10 px-2 py-0.5 rounded">
                       {item.phase}
                     </span>
                     <span className="text-sm text-muted-foreground">{item.date}</span>
