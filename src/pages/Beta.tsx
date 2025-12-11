@@ -15,7 +15,7 @@ const rewards = [
   {
     icon: Gift, title: "Gift Cards", description: "Gift cards & prizes for participating"
   },
-  { icon: Users, title: "Exclusive Access", description: "Be first to try new features" },
+  { icon: Users, title: "Early Access", description: "Be first to try new features" },
   { icon: CheckCircle, title: "Shape the App", description: "Your feedback directly impacts development" },
 ];
 

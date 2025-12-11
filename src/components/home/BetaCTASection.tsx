@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Gift, TestTube, Users } from "lucide-react";
+import { ArrowRight, Gift, Users, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -44,9 +44,9 @@ export const BetaCTASection = () => {
             className="grid md:grid-cols-3 gap-6 mb-10"
           >
             {[
-              { icon: Gift, title: "Earn Rewards", description: "Gift cards & prizes for participating" },
-              { icon: TestTube, title: "Early Access", description: "Be first to use new features" },
-              { icon: Users, title: "Shape the App", description: "Your feedback directly impacts development" },
+              { icon: Gift, title: "Gift Cards", description: "Gift cards & prizes for participating" },
+              { icon: Users, title: "Early Access", description: "Be first to try new features" },
+              { icon: CheckCircle, title: "Shape the App", description: "Your feedback directly impacts development" },
             ].map((benefit, i) => (
               <div
                 key={benefit.title}
