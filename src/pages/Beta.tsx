@@ -53,7 +53,7 @@ const Beta = () => {
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Button asChild size="lg" className="shadow-gold group">
                   <a
-                    href="https://forms.google.com/unigo-beta"
+                    href="https://forms.gle/uLgw6DH4pcYdvszg7"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -208,7 +208,7 @@ const Beta = () => {
             </p>
             <Button asChild size="lg" className="shadow-gold">
               <a
-                href="https://forms.google.com/unigo-beta"
+                href="https://forms.gle/uLgw6DH4pcYdvszg7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
