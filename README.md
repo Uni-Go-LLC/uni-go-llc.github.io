@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ```bash
 git clone <repository-url>
-cd uni-go-website
+cd website
 ```
 
 2. **Install dependencies**
