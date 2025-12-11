@@ -79,13 +79,6 @@ const Feedback = () => {
                   uni.go.llc@gmail.com
                 </a>
               </Button>
-
-              <div className="mt-8 p-4 bg-primary/5 rounded-xl">
-                <p className="text-sm text-foreground">
-                  <span className="font-semibold">Pro tip:</span> Include your university name and
-                  whether you're a driver, rider, or both in your feedback!
-                </p>
-              </div>
             </div>
           </motion.div>
         </div>
