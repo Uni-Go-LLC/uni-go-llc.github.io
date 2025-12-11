@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 import Feedback from "./pages/Feedback";
 import Beta from "./pages/Beta";
 import Terms from "./pages/legal/Terms";
-import Privacy from "./pages/legal/Privacy";
+import Privacy from "./pages/legal/PrivacyPolicy";
 import DrivingGuide from "./pages/legal/DrivingGuide";
 import ZeroTolerance from "./pages/legal/ZeroTolerance";
 import CommunityStandards from "./pages/legal/CommunityStandards";
