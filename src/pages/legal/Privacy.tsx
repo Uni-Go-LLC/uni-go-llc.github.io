@@ -27,8 +27,8 @@ const Privacy = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">1. Information We Collect</h2>
                   <p className="text-muted-foreground">
-                    We collect information you provide directly, including your name, email address, 
-                    university affiliation, and profile information. We also collect usage data to improve 
+                    We collect information you provide directly, including your name, email address,
+                    university affiliation, and profile information. We also collect usage data to improve
                     our services.
                   </p>
                 </section>
@@ -36,7 +36,7 @@ const Privacy = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">2. How We Use Your Information</h2>
                   <p className="text-muted-foreground">
-                    Your information is used to provide and improve our services, verify your student status, 
+                    Your information is used to provide and improve our services, verify your student status,
                     facilitate ride connections, and communicate with you about your account and our services.
                   </p>
                 </section>
@@ -44,8 +44,8 @@ const Privacy = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">3. Information Sharing</h2>
                   <p className="text-muted-foreground">
-                    We share limited information between drivers and riders to facilitate rides. We do not 
-                    sell your personal information to third parties. We may share data with service providers 
+                    We share limited information between drivers and riders to facilitate rides. We do not
+                    sell your personal information to third parties. We may share data with service providers
                     who assist in operating our platform.
                   </p>
                 </section>
@@ -53,8 +53,8 @@ const Privacy = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">4. Data Security</h2>
                   <p className="text-muted-foreground">
-                    We implement appropriate security measures to protect your personal information. However, 
-                    no method of transmission over the Internet is 100% secure, and we cannot guarantee 
+                    We implement appropriate security measures to protect your personal information. However,
+                    no method of transmission over the Internet is 100% secure, and we cannot guarantee
                     absolute security.
                   </p>
                 </section>
@@ -62,7 +62,7 @@ const Privacy = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">5. Your Rights</h2>
                   <p className="text-muted-foreground">
-                    You have the right to access, correct, or delete your personal information. You may also 
+                    You have the right to access, correct, or delete your personal information. You may also
                     opt out of certain data collection practices. Contact us to exercise these rights.
                   </p>
                 </section>
@@ -71,8 +71,8 @@ const Privacy = () => {
                   <h2 className="text-xl font-semibold text-foreground mb-3">6. Contact</h2>
                   <p className="text-muted-foreground">
                     For privacy-related inquiries, please contact us at{" "}
-                    <a href="mailto:support@unigo.app" className="text-primary hover:underline">
-                      support@unigo.app
+                    <a href="mailto:uni.go.llc@gmail.com" className="text-primary hover:underline">
+                      uni.go.llc@gmail.com
                     </a>
                   </p>
                 </section>

@@ -29,7 +29,7 @@ const Feedback = () => {
             </h1>
 
             <p className="text-lg text-muted-foreground mb-12">
-              Your feedback helps us build a better app for students. Whether it's a bug report, 
+              Your feedback helps us build a better app for students. Whether it's a bug report,
               feature request, or general thoughts—we want to hear from you!
             </p>
           </motion.div>
@@ -69,20 +69,20 @@ const Feedback = () => {
 
               <h2 className="text-2xl font-bold text-foreground mb-2">Send Us Feedback</h2>
               <p className="text-muted-foreground mb-6">
-                Email us with your feedback and include as much detail as possible. 
+                Email us with your feedback and include as much detail as possible.
                 Screenshots are always helpful!
               </p>
 
               <Button asChild size="lg" className="shadow-gold w-full sm:w-auto">
-                <a href="mailto:support@unigo.app?subject=Feedback">
+                <a href="mailto:uni.go.llc@gmail.com?subject=Feedback">
                   <Mail className="w-5 h-5 mr-2" />
-                  support@unigo.app
+                  uni.go.llc@gmail.com
                 </a>
               </Button>
 
               <div className="mt-8 p-4 bg-primary/5 rounded-xl">
                 <p className="text-sm text-foreground">
-                  <span className="font-semibold">Pro tip:</span> Include your university name and 
+                  <span className="font-semibold">Pro tip:</span> Include your university name and
                   whether you're a driver, rider, or both in your feedback!
                 </p>
               </div>

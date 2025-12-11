@@ -27,8 +27,8 @@ const Terms = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">1. Acceptance of Terms</h2>
                   <p className="text-muted-foreground">
-                    By accessing and using the Uni Go application, you accept and agree to be bound by the terms 
-                    and provision of this agreement. This document will be updated with full terms and conditions 
+                    By accessing and using the Uni Go application, you accept and agree to be bound by the terms
+                    and provision of this agreement. This document will be updated with full terms and conditions
                     before the app launch.
                   </p>
                 </section>
@@ -36,7 +36,7 @@ const Terms = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">2. Eligibility</h2>
                   <p className="text-muted-foreground">
-                    Uni Go is exclusively available to currently enrolled college students. Users must verify 
+                    Uni Go is exclusively available to currently enrolled college students. Users must verify
                     their student status through a valid .edu email address to access the platform.
                   </p>
                 </section>
@@ -44,8 +44,8 @@ const Terms = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">3. User Responsibilities</h2>
                   <p className="text-muted-foreground">
-                    Users are responsible for maintaining the confidentiality of their account information and 
-                    for all activities that occur under their account. Both drivers and riders must adhere to 
+                    Users are responsible for maintaining the confidentiality of their account information and
+                    for all activities that occur under their account. Both drivers and riders must adhere to
                     all applicable laws and university policies.
                   </p>
                 </section>
@@ -53,7 +53,7 @@ const Terms = () => {
                 <section>
                   <h2 className="text-xl font-semibold text-foreground mb-3">4. Service Description</h2>
                   <p className="text-muted-foreground">
-                    Uni Go provides a platform connecting student drivers with student riders. We do not provide 
+                    Uni Go provides a platform connecting student drivers with student riders. We do not provide
                     transportation services directly. All arrangements are made between users at their own discretion.
                   </p>
                 </section>
@@ -62,8 +62,8 @@ const Terms = () => {
                   <h2 className="text-xl font-semibold text-foreground mb-3">5. Contact</h2>
                   <p className="text-muted-foreground">
                     For questions about these terms, please contact us at{" "}
-                    <a href="mailto:support@unigo.app" className="text-primary hover:underline">
-                      support@unigo.app
+                    <a href="mailto:uni.go.llc@gmail.com" className="text-primary hover:underline">
+                      uni.go.llc@gmail.com
                     </a>
                   </p>
                 </section>

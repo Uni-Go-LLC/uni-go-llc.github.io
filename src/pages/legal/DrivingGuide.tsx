@@ -96,8 +96,8 @@ const DrivingGuide = () => {
               <h3 className="font-semibold text-foreground mb-2">Questions?</h3>
               <p className="text-muted-foreground">
                 Contact us at{" "}
-                <a href="mailto:support@unigo.app" className="text-primary hover:underline">
-                  support@unigo.app
+                <a href="mailto:uni.go.llc@gmail.com" className="text-primary hover:underline">
+                  uni.go.llc@gmail.com
                 </a>{" "}
                 for any driving-related questions.
               </p>

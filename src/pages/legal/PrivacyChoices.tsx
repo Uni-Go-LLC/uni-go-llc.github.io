@@ -48,7 +48,7 @@ const PrivacyChoices = () => {
             <div className="bg-card rounded-2xl p-8 border border-border mb-8">
               <h2 className="text-xl font-semibold text-foreground mb-4">Your Rights</h2>
               <p className="text-muted-foreground">
-                At Uni Go, we believe you should have control over your personal data. This page 
+                At Uni Go, we believe you should have control over your personal data. This page
                 explains the choices you have regarding your information and how to exercise your rights.
               </p>
             </div>
@@ -76,7 +76,7 @@ const PrivacyChoices = () => {
             <div className="bg-card rounded-2xl p-8 border border-border">
               <h2 className="text-xl font-semibold text-foreground mb-4">How to Exercise Your Choices</h2>
               <p className="text-muted-foreground mb-4">
-                You can manage most privacy settings directly in the Uni Go app under Settings → Privacy. 
+                You can manage most privacy settings directly in the Uni Go app under Settings → Privacy.
                 For requests that require manual processing:
               </p>
               <ul className="space-y-2 text-muted-foreground mb-6">
@@ -87,8 +87,8 @@ const PrivacyChoices = () => {
               </ul>
               <p className="text-muted-foreground">
                 Contact us at{" "}
-                <a href="mailto:support@unigo.app" className="text-primary hover:underline">
-                  support@unigo.app
+                <a href="mailto:uni.go.llc@gmail.com" className="text-primary hover:underline">
+                  uni.go.llc@gmail.com
                 </a>{" "}
                 with "Privacy Request" in the subject line.
               </p>

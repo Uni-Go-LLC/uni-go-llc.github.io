@@ -85,11 +85,11 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <a
-              href="mailto:support@unigo.app"
+              href="mailto:uni.go.llc@gmail.com"
               className="flex items-center gap-2 text-muted-foreground text-sm hover:text-primary transition-colors"
             >
               <Mail className="w-4 h-4" />
-              support@unigo.app
+              uni.go.llc@gmail.com
             </a>
           </div>
         </div>

@@ -36,8 +36,8 @@ const ZeroTolerance = () => {
             <div className="bg-card rounded-2xl p-8 border border-border mb-8">
               <h2 className="text-xl font-semibold text-foreground mb-4">Our Commitment</h2>
               <p className="text-muted-foreground mb-6">
-                Uni Go is committed to maintaining a safe and respectful environment for all users. 
-                We have a zero tolerance policy for any behavior that threatens the safety, comfort, 
+                Uni Go is committed to maintaining a safe and respectful environment for all users.
+                We have a zero tolerance policy for any behavior that threatens the safety, comfort,
                 or dignity of our community members.
               </p>
 
@@ -67,14 +67,14 @@ const ZeroTolerance = () => {
             <div className="bg-card rounded-2xl p-8 border border-border">
               <h2 className="text-xl font-semibold text-foreground mb-4">Reporting Violations</h2>
               <p className="text-muted-foreground mb-4">
-                If you experience or witness any violation of this policy, please report it immediately. 
+                If you experience or witness any violation of this policy, please report it immediately.
                 All reports are taken seriously and investigated promptly.
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Use the in-app reporting feature</li>
                 <li>• Email us at{" "}
-                  <a href="mailto:support@unigo.app" className="text-primary hover:underline">
-                    support@unigo.app
+                  <a href="mailto:uni.go.llc@gmail.com" className="text-primary hover:underline">
+                    uni.go.llc@gmail.com
                   </a>
                 </li>
                 <li>• In case of emergency, always contact local authorities first</li>

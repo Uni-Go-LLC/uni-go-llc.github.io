@@ -45,9 +45,9 @@ const Contact = () => {
                 </p>
 
                 <Button asChild size="lg" className="shadow-gold w-full sm:w-auto">
-                  <a href="mailto:support@unigo.app">
+                  <a href="mailto:uni.go.llc@gmail.com">
                     <Mail className="w-5 h-5 mr-2" />
-                    support@unigo.app
+                    uni.go.llc@gmail.com
                   </a>
                 </Button>
 
