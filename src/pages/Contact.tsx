@@ -8,24 +8,53 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { a } from "node_modules/framer-motion/dist/types.d-DagZKalS";
 
 const Contact = () => {
   const faqItems = [
     {
       question: "How do I sign up for the beta test?",
-      answer: "You can sign up for the beta test by clicking the 'Sign Up for Beta' button on our website or navigating to our Beta page. Fill out the form with your details and university information to get started!"
+      answer: "You can sign up for the beta test by clicking the 'Sign Up for Beta' button on our website or navigating to our Beta page. Fill out the form with your details to get started!"
     },
     {
       question: "When will Uni Go launch?",
-      answer: "We're currently in beta testing phase with select universities. Full launch details will be announced soon. Stay tuned for updates!"
-    },
-    {
-      question: "Is Uni Go available at my university?",
-      answer: "Uni Go is currently expanding to more universities. Check our Beta page to see if your university is part of our pilot program or to express interest."
+      answer: "We're currently in beta testing phase with select universities. Full launch details will be in Spring 2026. Stay tuned for updates!"
     },
     {
       question: "How do drivers get paid?",
-      answer: "Drivers earn money for each completed ride. Payments are processed weekly and can be withdrawn to your linked bank account."
+      answer: "When you post a ride as a driver, you set your own price for the trip. You keep 100% of the fare. You can also accept ride requests from other users and earn money that way."
+    },
+    {
+      question: "Can I set my own schedule as a driver?",
+      answer: "Yes, drivers can set their own schedules and work as much or as little as they want. You can choose to fulfill any rides that others request or post your own."
+    },
+    { 
+      question: "Can drivers drive casually or is there a commitment?",
+      answer: "Drivers have complete flexibility. You can drive casually whenever you want without any long-term commitment. Just log in, accept rides, post your own rides, and start earning!"
+    },
+    {
+    question: "Can I choose who I drive?",
+    answer: "As a driver, you can view rider profiles and ratings before accepting ride requests. This allows you to choose riders you feel comfortable driving."
+    },
+    {
+      question: "How can I make sure I don't miss any rides?",
+      answer: "In your account settings, you can set certain locations to receive notifications so you never miss a ride for that location."
+    },
+    {
+      question: "Can I be a rider and a driver?",
+      answer: "Absolutely! Many users choose to be both riders and drivers on Uni Go. You can switch between roles based on your needs and availability."
+    },
+    {
+      question: "As a rider, can I coordinate rides with friends?",
+      answer: "Yes, when creating your ride, enter how many seats you would need so the appropriate drivers can accept with your request."
+      },
+    {
+      question: "Can I choose who I ride with?",
+      answer: "Yes, as a rider, you can view driver profiles and ratings before accepting. This way, you can choose to ride with drivers you feel comfortable with."
+    },
+    {
+    question: "Is there an Android app available?",
+    answer: "Currently, Uni Go is available as an iOS app. We are working on developing native apps for Android, which will be released in the near future."
     },
   ];
   return (
