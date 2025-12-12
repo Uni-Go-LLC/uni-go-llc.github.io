@@ -34,11 +34,6 @@ const Beta = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-                <TestTube className="w-4 h-4 text-black" />
-                <span className="text-sm font-medium text-black">Beta Testing Program</span>
-              </div>
-
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                 Help Us Launch Uni <span className="text-gradient-gold">Go</span>
               </h1>

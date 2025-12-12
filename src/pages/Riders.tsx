@@ -75,11 +75,6 @@ const Riders = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-              <Users className="w-4 h-4 text-black" />
-              <span className="text-sm font-medium text-black">For Riders</span>
-            </div>
-
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Get Where You Need to Go,{" "}
               <span className="text-gradient-gold">Affordably</span>

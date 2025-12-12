@@ -66,11 +66,6 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-2xl mx-auto text-center"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-              <MessageCircle className="w-4 h-4 text-black" />
-              <span className="text-sm font-medium text-black">Get in Touch</span>
-            </div>
-
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Contact <span className="text-gradient-gold">Us</span>
             </h1>
