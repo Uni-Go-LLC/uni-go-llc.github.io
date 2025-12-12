@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ```bash
 git clone <repository-url>
-cd website
+cd uni-go-llc.github.io
 ```
 
 2. **Install dependencies**
@@ -70,4 +70,14 @@ To run ESLint and check for code quality issues:
 
 ```bash
 npm run lint
+```
+
+## Deploy
+
+### gh-pages
+
+On the `main` branch:
+```bash
+rm -rf node_modules/.cache/gh-pages
+npm run deploy
 ```
