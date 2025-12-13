@@ -28,6 +28,17 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="msapplication-TileImage" content="/favicon.ico?v=2" />
+
+  <!-- Handle GitHub Pages routing -->
+  <script type="text/javascript">
+    (function () {
+      var redirect = sessionStorage.redirect;
+      if (redirect) {
+        delete sessionStorage.redirect;
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 </head>
 
 <body>
