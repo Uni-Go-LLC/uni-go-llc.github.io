@@ -6,8 +6,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Index from "./pages/Index";
 import About from "./pages/About";
-import Riders from "./pages/Riders";
-import Drivers from "./pages/Drivers";
+import HowItWorks from "./pages/HowItWorks";
 import Careers from "./pages/Careers";
 import Jobs from "./pages/Jobs";
 import JobDetails from "./pages/JobDetails";
@@ -44,8 +43,9 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
-          <Route path="/riders" element={<Riders />} />
-          <Route path="/drivers" element={<Drivers />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/riders" element={<HowItWorks />} />
+          <Route path="/drivers" element={<HowItWorks />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/careers" element={<Careers />} />
