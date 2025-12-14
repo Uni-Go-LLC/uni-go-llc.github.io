@@ -123,13 +123,13 @@ const jobDetailsData: Record<string, any> = {
         ],
     },
     "business-developer-intern": {
-        title: "Business Developer Intern",
+        title: "Business Development Intern",
         link: "https://forms.gle/fbip1D8f2mNbaN4AA",
         location: "Remote / Hybrid / On-Site (Sioux Falls, SD)",
         duration: "3-6 months",
         hoursPerWeek: "Part-Time or Full-Time",
         compensation: "Equity",
-        aboutRole: `We're building the next generation of ridesharing exclusively for college students — and we need a Business Developer Intern to help us grow our presence in new markets and expand our revenue streams. You'll take ownership of key business initiatives, from developing go-to-market strategies to identifying partnerships and optimizing our business models for sustainable growth.`,
+        aboutRole: `We're building the next generation of ridesharing exclusively for college students — and we need a Business Development Intern to help us grow our presence in new markets and expand our revenue streams. You'll take ownership of key business initiatives, from developing go-to-market strategies to identifying partnerships and optimizing our business models for sustainable growth.`,
         whatYouDo: [
             "Research and analyze market opportunities across college campuses",
             "Develop and test different business models to maximize revenue and user growth",

@@ -31,7 +31,7 @@ const jobListings = [
     },
     {
         id: "business-developer-intern",
-        title: "Business Developer Intern",
+        title: "Business Development Intern",
         location: "Remote / Hybrid / On-Site (Sioux Falls, SD)",
         duration: "3-6 months",
         hoursPerWeek: "Part-Time or Full-Time",
