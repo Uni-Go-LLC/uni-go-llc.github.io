@@ -4,6 +4,17 @@ import path from "path";
 
 export default defineConfig(() => ({
   base: "/",
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          return assetInfo.name || "[name].[ext]";
+        },
+        chunkFileNames: "[name].js",
+        entryFileNames: "[name].js",
+      },
+    },
+  },
   server: {
     host: "::",
     port: 8080,
