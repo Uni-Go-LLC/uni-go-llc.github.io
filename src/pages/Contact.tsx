@@ -137,10 +137,10 @@ const Contact = () => {
               <Accordion type="single" collapsible className="w-full">
                 {faqItems.map((item, i) => (
                   <AccordionItem key={i} value={`item-${i}`}>
-                    <AccordionTrigger className="text-sm text-foreground hover:font-bold hover:text-foreground no-underline">
+                    <AccordionTrigger className="text-sm text-foreground hover:font-bold hover:text-foreground no-underline text-left w-full">
                       {item.question}
                     </AccordionTrigger>
-                    <AccordionContent className="text-sm text-muted-foreground">
+                    <AccordionContent className="text-sm text-muted-foreground text-left">
                       {item.answer}
                     </AccordionContent>
                   </AccordionItem>
