@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 import logoImage from "@/assets/images/uni-go-logo.png";
 import { navLinks, legalLinks } from "@/lib/navigation";
 
@@ -12,8 +12,8 @@ export const Footer = () => {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl overflow-hidden shadow-gold group-hover:scale-105 transition-transform">
-              <img src={logoImage} alt="Uni Go Logo" className="w-full h-full object-cover" />
-            </div>
+                <img src={logoImage} alt="Uni Go Logo" className="w-full h-full object-cover" />
+              </div>
               <span className="text-xl font-bold text-foreground">
                 Uni Go
               </span>
@@ -66,6 +66,15 @@ export const Footer = () => {
             >
               <Mail className="w-4 h-4" />
               uni.go.llc@gmail.com
+            </a>
+            <a
+              href="https://instagram.com/rideunigo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 flex items-center gap-2 text-muted-foreground text-sm hover:text-muted-foreground"
+            >
+              <Instagram className="w-4 h-4" />
+              @rideunigo
             </a>
           </div>
         </div>
