@@ -17,12 +17,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl overflow-hidden shadow-gold group-hover:scale-105 transition-transform">
-              <img src={logoImage} alt="Uni Go Logo" className="w-full h-full object-cover" />
-            </div>
-            <span className="text-xl font-bold text-foreground">
-              Uni Go
-            </span>
+            <img src={logoImage} alt="Uni Go Logo" className="w-36 h-36 object-contain group-hover:scale-105 transition-transform" />
           </Link>
 
           {/* Desktop Navigation */}

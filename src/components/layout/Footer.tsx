@@ -10,13 +10,8 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl overflow-hidden shadow-gold group-hover:scale-105 transition-transform">
-                <img src={logoImage} alt="Uni Go Logo" className="w-full h-full object-cover" />
-              </div>
-              <span className="text-xl font-bold text-foreground">
-                Uni Go
-              </span>
+            <Link to="/" className="block group w-28">
+              <img src={logoImage} alt="Uni Go Logo" className="w-28 h-28 object-contain group-hover:scale-105 transition-transform" />
             </Link>
             <p className="text-muted-foreground text-sm mb-4">
               The ride-sharing app made exclusively for college students. Connect, ride, and save together.
