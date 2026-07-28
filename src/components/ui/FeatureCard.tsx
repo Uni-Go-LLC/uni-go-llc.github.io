@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-// Reusable grid wrapper for initial load animation (matches Beta page)
+// Reusable grid wrapper for initial load animation (matches Download page)
 export function CardGridMotion({ className = "", children }: { className?: string; children: React.ReactNode }) {
   return (
     <motion.div

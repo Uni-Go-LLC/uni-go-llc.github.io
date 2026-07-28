@@ -12,7 +12,7 @@ import Jobs from "./pages/Jobs";
 import JobDetails from "./pages/JobDetails";
 import Contact from "./pages/Contact";
 import Feedback from "./pages/Feedback";
-import Beta from "./pages/Beta";
+import Download from "./pages/Download";
 import Terms from "./pages/legal/Terms";
 import Privacy from "./pages/legal/PrivacyPolicy";
 import DrivingGuide from "./pages/legal/DrivingGuide";
@@ -50,7 +50,7 @@ const App = () => (
           <Route path="/careers" element={<Careers />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/job/:jobId" element={<JobDetails />} />
-          <Route path="/beta" element={<Beta />} />
+          <Route path="/download" element={<Download />} />
           <Route path="/legal/terms" element={<Terms />} />
           <Route path="/legal/privacy" element={<Privacy />} />
           <Route path="/legal/driving-guide" element={<DrivingGuide />} />

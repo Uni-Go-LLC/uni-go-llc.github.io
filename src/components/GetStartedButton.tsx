@@ -9,7 +9,7 @@ interface GetStartedButtonProps {
 export const GetStartedButton = ({ size = "lg", className = "" }: GetStartedButtonProps) => {
   return (
     <Button asChild size={size} className={`shadow-gold group ${className}`}>
-      <Link to="/beta">
+      <Link to="/download">
         Get Started
       </Link>
     </Button>
