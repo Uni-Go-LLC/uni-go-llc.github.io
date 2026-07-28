@@ -45,7 +45,7 @@ const Contact = () => {
     },
     {
       question: "Is there an Android app available?",
-      answer: "Currently, Uni Go is available as an iOS app. We are working on developing an Android app, which will be released in the near future."
+      answer: "Yes! Uni Go is available on both iOS and Android. You can download it from the App Store or Google Play."
     },
   ];
   return (

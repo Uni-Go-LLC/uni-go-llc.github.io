@@ -332,7 +332,7 @@ const HowItWorks = () => {
                                     Ready to Start Riding?
                                 </h3>
                                 <p className="text-lg text-background/70 mb-8">
-                                    Join our beta program and be among the first to experience affordable student ridesharing.
+                                    Download the app and start experiencing affordable student ridesharing today.
                                 </p>
                                 <GetStartedButton />
                             </motion.div>
@@ -493,7 +493,7 @@ const HowItWorks = () => {
                                     Ready to Start Earning?
                                 </h3>
                                 <p className="text-lg text-background/70 mb-8">
-                                    Join our beta program and be among the first drivers to earn with Uni Go.
+                                    Download the app and start earning with Uni Go today.
                                 </p>
                                 <GetStartedButton />
                             </motion.div>
