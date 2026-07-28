@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { HeroSection } from "@/components/home/HeroSection";
 import { HowItWorksSection } from "@/components/home/HowItWorksSection";
 import { UseCasesSection } from "@/components/home/UseCasesSection";
-import { BetaCTASection } from "@/components/home/BetaCTASection";
+import { DownloadCTASection } from "@/components/home/DownloadCTASection";
 
 const Index = () => {
   return (
@@ -10,7 +10,7 @@ const Index = () => {
       <HeroSection />
       <HowItWorksSection />
       <UseCasesSection />
-      <BetaCTASection />
+      <DownloadCTASection />
     </Layout>
   );
 };

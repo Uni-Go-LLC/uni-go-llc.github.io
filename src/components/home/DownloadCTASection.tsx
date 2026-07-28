@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Gift, Users, CheckCircle } from "lucide-react";
+import { Wallet, ShieldCheck, Users } from "lucide-react";
 import { FeatureCard } from "@/components/ui/FeatureCard";
-import { GetStartedButton } from "../GetStartedButton";
+import { DownloadButtons } from "@/components/DownloadButtons";
 
-export const BetaCTASection = () => {
+export const DownloadCTASection = () => {
   return (
     <section className="py-8 md:py-10 bg-foreground relative overflow-hidden">
       {/* Background Pattern */}
@@ -20,8 +20,7 @@ export const BetaCTASection = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-background mb-6"
           >
-            Help Us Launch Uni Go at{" "}
-            <span className="text-primary">Augustana University</span>
+            Ride with <span className="text-primary">Uni Go</span>
           </motion.h2>
 
           <motion.p
@@ -30,7 +29,7 @@ export const BetaCTASection = () => {
             transition={{ delay: 0.2 }}
             className="text-lg text-background/70 mb-8 max-w-2xl mx-auto"
           >
-            Sign up as a rider, driver, or both. Share feedback to help us build features that work for you.
+            Sign up as a rider, driver, or both. Download the app and start saving on every trip.
           </motion.p>
 
           {/* Benefits */}
@@ -41,9 +40,9 @@ export const BetaCTASection = () => {
             className="grid md:grid-cols-3 gap-6 mb-10"
           >
             {[
-              { icon: Gift, title: "Gift Cards", description: "Gift cards & prizes for participating" },
-              { icon: Users, title: "Early Access", description: "Be first to try new features" },
-              { icon: CheckCircle, title: "Shape the App", description: "Your feedback directly impacts development" },
+              { icon: Wallet, title: "Affordable Rides", description: "Split the cost of every trip with fellow students" },
+              { icon: ShieldCheck, title: "Verified Students", description: "Every rider and driver is a verified student" },
+              { icon: Users, title: "Ride or Drive", description: "Switch between riding and driving anytime" },
             ].map((benefit) => (
               <FeatureCard
                 key={benefit.title}
@@ -61,9 +60,9 @@ export const BetaCTASection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-center mt-12"
+            className="flex justify-center mt-12"
           >
-            <GetStartedButton />
+            <DownloadButtons />
           </motion.div>
         </div>
       </div>
