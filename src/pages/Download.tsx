@@ -33,7 +33,7 @@ const Download = () => {
 
               <p className="text-lg text-muted-foreground mb-6">
                 Download the app to start riding or driving as a college student. Available now
-                on iOS and Android.
+                for iOS and Android.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
