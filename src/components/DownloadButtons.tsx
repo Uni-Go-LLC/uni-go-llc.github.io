@@ -2,8 +2,7 @@ import appStoreBadge from "@/assets/images/app-store-badge.svg";
 import googlePlayBadge from "@/assets/images/google-play-badge.png";
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/uni-go/id6758922674";
-// TODO: swap in the real Uni Go Play Store listing once it's live
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.facebook.katana";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.rideunigo.uni.go.prod";
 
 interface StoreButtonProps {
   href?: string;
